@@ -12,7 +12,7 @@ header {
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
-  position: fixed;
+  position: sticky;
   top: 0px;
   display: block;
   background-color: black;
@@ -23,6 +23,7 @@ header {
     padding-top: 9.5px;
     float: left;
     height: 50px;
+    top: 70px;
 }
 
 ul{
@@ -46,6 +47,7 @@ li {
   text-decoration: underline;
   color: seashell;
 }
+
 .container-2 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   background-repeat: no-repeat;
